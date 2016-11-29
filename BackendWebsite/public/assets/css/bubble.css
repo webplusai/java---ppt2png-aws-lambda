@@ -1,0 +1,31 @@
+#bubble {
+	position: absolute;
+	width: 234px;
+	z-index: 100;
+}
+
+#comment {
+	position: absolute;
+}
+
+#header {
+	height: 12px;
+	background-image: url(../img/bubble_header.png);
+}
+
+#content {
+	height: 100px;
+	background-image: url(../img/bubble_content.png);
+}
+
+#comment_text {
+	margin-left: 15px;
+	margin-top: 15px;
+	width: 198px;
+	height: 70px;
+}
+
+#footer {
+	height: 6px;
+	background-image: url(../img/bubble_footer.png);
+}
