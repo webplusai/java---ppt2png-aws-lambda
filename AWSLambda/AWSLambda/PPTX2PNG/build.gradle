@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'jars', include: '*.jar')
+}
+
+task buildZip(type: Zip) {
+    from compileJava
+    from processResources              
+    into('lib') {
+        from configurations.runtime
+    }           
+}
+
+build.dependsOn buildZip

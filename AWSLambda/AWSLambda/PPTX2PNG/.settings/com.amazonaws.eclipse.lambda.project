@@ -1,0 +1,7 @@
+#Lambda Function Project Metadata
+#Thu Sep 29 19:18:03 CEST 2016
+lastInvokeShowLiveLog=false
+lastDeploymentFunctionName=PPTX2PNG
+lastDeploymentBucketName=pptx-upload
+lastDeploymentEndpoint=https\://lambda.us-east-1.amazonaws.com/
+lastInvokeInput={  \r\n   "Records"\:[  \r\n      {  \r\n         "eventVersion"\:"2.0",\r\n         "eventSource"\:"aws\:s3",\r\n         "awsRegion"\:"us-east-1",\r\n         "eventTime"\:"1970-01-01T00\:00\:00.000Z",\r\n         "eventName"\:"ObjectCreated\:Put",\r\n         "userIdentity"\:{  \r\n            "principalId"\:"AIDAJDPLRKLG7UEXAMPLE"\r\n         },\r\n         "requestParameters"\:{  \r\n            "sourceIPAddress"\:"127.0.0.1"\r\n         },\r\n         "responseElements"\:{  \r\n            "x-amz-request-id"\:"C3D13FE58DE4C810",\r\n            "x-amz-id-2"\:"FMyUVURIY8/IgAtTv8xRjskZQpcIZ9KG4V5Wp6S7S/JRWeUWerMUE5JgHvANOjpD"\r\n         },\r\n         "s3"\:{  \r\n            "s3SchemaVersion"\:"1.0",\r\n            "configurationId"\:"testConfigRule",\r\n            "bucket"\:{  \r\n               "name"\:"sourcebucket",\r\n               "ownerIdentity"\:{  \r\n                  "principalId"\:"A3NL1KOZZKExample"\r\n               },\r\n               "arn"\:"arn\:aws\:s3\:\:\:sourcebucket"\r\n            },\r\n            "object"\:{  \r\n               "key"\:"Sample.pptx",\r\n               "size"\:1024,\r\n               "eTag"\:"d41d8cd98f00b204e9800998ecf8427e",\r\n               "versionId"\:"096fKKXTRTtl3on89fVO.nfljtsv6qko"\r\n            }\r\n         }\r\n      }\r\n   ]\r\n}
